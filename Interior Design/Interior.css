@@ -1,0 +1,309 @@
+/* heading */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    height: 100vh;
+    border: 2px #F44336;
+    display: flex;
+}
+.sidebar{
+    height: 100vh;
+    width: 20%;  
+    background-color: #F44336;
+    color: white;
+    position: fixed;
+    
+}
+.comp{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.company{
+    width: 50%;
+    font-size: 18px;
+    margin-left: 10%;
+}
+ol{
+    margin-left: 12%;
+    list-style: none;
+    margin-left: 10%;
+
+}
+li{
+    margin: 10px;
+    padding: 10px;
+    height: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.sideitems{
+    height: 40%;
+    
+    display: flex;
+    
+
+}
+/* .content */
+.content{
+    width:80%;
+    position: absolute;
+    right: 0px;
+}
+.Interior{
+    height: 5vh;
+    width: 80%;
+    padding: 30px;
+    font-size: 35px;
+    /* border: 2px solid black; */
+    font-weight: bold;
+    font-size: 64px!important;
+    margin: 80px 0px 0px;
+
+}
+.showcase
+{
+    height: 5vh;
+    padding: 30px;
+    /* border: 2px solid black; */
+    font-size: 30px;
+    font-weight: bolder;
+    font-size: 40px!important;
+    color: #F44336;
+    margin: 10px 0px;
+}
+.redbox{
+    height: 10px;
+    width: 6%;
+    background-color: #F44336;
+    border-radius: 10px;
+    margin-left: 3%;
+    margin-bottom: 20px;
+}
+.images{
+    /* height: 200vh; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items:center ;
+    
+
+}
+.img1{
+    height: 70vh;
+    width: 48%;
+    margin: 5px;
+    background-size:cover;
+    
+    
+}
+.img1 img{
+    height: 100%;
+    width: 100%;
+}
+.img2{
+    height: 50vh;
+    width: 48%;
+    display: flex;
+    padding-top: 2px;
+    margin: 5px;
+}
+.img2 img{
+    height: 100%;
+    width: 100%;
+}
+.services{
+    margin-top: 70px;
+    /* border: 2px solid black; */
+    width: 98%;
+    margin-left: 1%;
+}
+.services h1{
+    height: 10vh;
+    margin-top: 1%;
+    font-weight: bold;
+    font-size: 50px;
+    color: #F44336;
+}
+.services hr{
+    height: 5px;
+    padding: 1px;
+}
+.services p{
+    margin: 10px 0px;
+    word-spacing: 3px;
+
+}
+.author
+{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    justify-content: space-evenly;
+}
+.r1{
+    height: 90%;
+    
+    width: 28%;
+    margin: 2px;
+    
+}
+.r1pic{
+    height: 45%;
+    display: flex;
+    background-size: cover;
+}
+.name{
+    height: 10%;
+    margin-top: 10px;
+}
+.ceo{
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+.aboutceo{
+    height: 20%;
+   
+}
+/* packages */
+.packages{
+    margin-top: 70px;
+    height: 30%;
+    /* border: 2px solid black; */
+    margin-left: 1%;
+
+}
+.packages h1{
+    height: 10vh;
+    margin-top: 1%;
+    font-weight: bold;
+    font-size: 50px;
+    color: #F44336;
+}
+.packages hr{
+    height: 5px;
+    padding: 1px;
+}
+.packages p{
+    margin: 10px 0px;
+    word-spacing: 3px;
+
+}
+/* table  */
+.bptable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    /* border: 2px solid black; */
+    width: 100%;
+    margin-top: 4%
+    ;
+}
+.basic{
+    height: 90vh;
+    /* border: 2px solid black; */
+    margin: 2px;
+    width: 45%;
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+.pro{
+    height: 90vh;
+    /* border: 2px solid black; */
+    width: 45%;
+}
+.bac{
+    height: 13vh;
+    /* border: 2px solid black; */
+    background-color: #616161;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    line-height: 4;
+    
+
+}
+.ba5{
+    line-height: 4;
+    height: 10vh;
+    /* border: 2px solid black; */
+    background-color: #ddd9d9;
+
+    
+
+}
+.baprice{
+    font-size: 40px;
+    /* border: 2px solid black; */
+    height: 15vh;
+    background-color: #ddd9d9;
+}
+.baprice p{
+    font-size: 20px;
+}
+.basign{
+    /* border: 2px solid black; */
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd9d9;
+}
+.basign button{
+    width: 15vh;
+    font-size: 15px;
+    height: 60%;
+    border: none;
+}
+/* contact */
+
+form{
+    /* border: 2px solid black; */
+    height: 50vh;
+    width: 100%;
+    padding:20px;
+    margin-top: 10px;
+}
+input{
+    height: 30px;
+    width: 95%;
+    margin-top: 10px;
+
+}
+button{
+    width: 95.4%;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #F44336;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+/* lastbar */
+.lastbar{
+    height: 10vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 16px;
+    background-color: rgba(128, 128, 128, 0.26);
+    font-size: small;
+    font-weight: 100;
+
+}
+
